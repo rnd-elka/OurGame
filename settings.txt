@@ -1,0 +1,27 @@
+question object structure:
+{
+    question: "question content example",
+    answers: ["answer1 example", "answer2 example", "answer3 example"],
+    correctAnswerIndex: 0
+}
+
+global variables:
+# score
+# currentQuestionIndex
+
+
+
+functions:
+
+# getCurrentQuestion -  return current question object.
+# upScore 
+# downScore
+# isCorrectAnswer
+# getNextQuestion
+
+# renderQuestion
+# copyToClipboard
+
+
+
+
