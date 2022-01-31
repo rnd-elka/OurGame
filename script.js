@@ -7,3 +7,9 @@ currentQuestionIndex=0;
 function GetTrueAnswer(arrAnswers,index){
     return arrAnswers[index];
 }
+
+//פונקציה שמקבלת מספר נקודות נוכחיומספר נקודות להורדה
+//ומחזירה את מספר הנקודות המעודכן
+const downScore=(globalScore,downer)=>{
+    return globalScore-downer;
+}
