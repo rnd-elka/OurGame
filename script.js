@@ -1,3 +1,4 @@
+
 //global variables
 scope=0;
 currentQuestionIndex=0;
@@ -29,4 +30,9 @@ function copy(copyText) {
     /* Alert the copied text */
     alert("Copied the text: " + copyText.value);
   }
+
+
+function getCurrentQuestions (arrQuestions,index){
+    return arrQuestions[index];
+}
 
