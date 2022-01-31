@@ -11,14 +11,13 @@ function GetTrueAnswer(arrAnswers,index){
 
 //פונקציה שמדמה העתק הדבק
 function copy(copyText) {
-  
-    /* Select the text field */
+    //בחירת הטקסט
     copyText.select();
-    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+    copyText.setSelectionRange(0, 99999);
   
-    /* Copy the text inside the text field */
+   //מעתיק את הטקסט לשדה 
     navigator.clipboard.writeText(copyText.value);
     
-    /* Alert the copied text */
+    //הודעת אלרט שהקובץ הועתק
     alert("Copied the text: " + copyText.value);
   }
