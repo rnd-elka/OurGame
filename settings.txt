@@ -12,14 +12,18 @@ global variables:
 
 
 functions:
-
+# startGame
 # getCurrentQuestion -  return current question object.
 # upScore 
 # downScore
 # isCorrectAnswer
 # getNextQuestion
-
+# nextQuestion
+# win
+# updateScore (In board and localStorage)
+# finish
 # renderQuestion
+# viewCorrectAnswer
 # copyToClipboard
 
 
