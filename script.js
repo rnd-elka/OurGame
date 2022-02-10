@@ -4,8 +4,8 @@ scope=0;
 currentQuestionIndex=0;
 const WINSCORE=200;
 
+//פונקציה רקע
 setInterval(checkWin,500);
-
 //פונקציה שמקבלת מערך של תשובות ואינדקס ל התשובה הנכונה ומחזירה את התשובה הנכונה
 function GetTrueAnswer(arrAnswers,index){
     return arrAnswers[index];
@@ -37,9 +37,11 @@ function copy(copyText) {
 function getCurrentQuestions (arrQuestions,index){
     return arrQuestions[index];
 }
+
+//פונקציה נצחון
 const checkWin =(score)=>{
     if(score>=WINSCORE)
-     window.location.href = "./win.html";
+     window.location.href = "./win/win.html";
 }
 
 
