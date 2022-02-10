@@ -23,5 +23,8 @@ functions:
 # copyToClipboard
 
 
+#function that ran in the background all the time and checked to see if there was a win
+#checkWin 
+
 
 

@@ -2,7 +2,9 @@
 //global variables
 scope=0;
 currentQuestionIndex=0;
+const WINSCORE=200;
 
+setInterval(checkWin,500);
 
 //פונקציה שמקבלת מערך של תשובות ואינדקס ל התשובה הנכונה ומחזירה את התשובה הנכונה
 function GetTrueAnswer(arrAnswers,index){
@@ -35,4 +37,9 @@ function copy(copyText) {
 function getCurrentQuestions (arrQuestions,index){
     return arrQuestions[index];
 }
+const checkWin =(score)=>{
+    if(score>=WINSCORE)
+     window.location.href = "./win.html";
+}
+
 
