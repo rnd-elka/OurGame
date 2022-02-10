@@ -36,3 +36,8 @@ function getCurrentQuestions (arrQuestions,index){
     return arrQuestions[index];
 }
 
+// פונקציה שמעבירה לשאלה הבאה 
+function GetNextQuastion(){
+    currentQuestionIndex++;
+    getCurrentQuestions(currentQuestionIndex);
+}
