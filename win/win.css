@@ -12,3 +12,12 @@ canvas {
 
 	/*background-size: 1366px;*/
 }
+h1{
+	position: absolute;
+	color:white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 10vw;
+	margin-left: 35vw;
+	margin-top: 60vh;
+	z-index: 1000;
+}

@@ -41,7 +41,7 @@ function getCurrentQuestions (arrQuestions,index){
 //פונקציה נצחון
 const checkWin =(score)=>{
     if(score>=WINSCORE)
-     window.location.href = "./win/win.html";
+     window.location.href = "../win/win.html";
 }
 
 
