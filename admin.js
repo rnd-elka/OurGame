@@ -1,8 +1,9 @@
-function renderCard(doc){
+function renderCard(doc,str){
     var insertq=document.createElement("label");
     insertq.innerHTML="הכנס שאלה";
     
     var inputq=document.createElement("input");
+    inputq.id=str;
     inputq.type="text";
     var inserta=document.createElement("label");
     inserta.innerHTML="הכנס 3 תשובות";
