@@ -12,6 +12,8 @@ function renderCard(doc){
     inputa2.type="text";
     var inputa3=document.createElement("input");
     inputa3.type="text";
+    var insertcan=document.createElement("label");
+    insertcan.innerHTML="הכנס מספר תשובה נכונה";
     var inputcorrect=document.createElement("input");
     inputcorrect.type="number";
     doc.appendChild(insertq);
@@ -20,6 +22,7 @@ function renderCard(doc){
     doc.appendChild(inputa1);
     doc.appendChild(inputa2);
     doc.appendChild(inputa3);
+    doc.appendChild(insertcan);
     doc.appendChild(inputcorrect);
 
 }
